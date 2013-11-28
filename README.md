@@ -26,3 +26,27 @@ Features
 - This tool transforms the system level database operations to application level user clicks.
 
 - By using this tool, database operations will no longer be command line operations. 
+
+How To INSTALL
+==============
+    - Copy the files into your Apache (either by check-out or by downloading the zip verion) 
+
+    - This one intends to run on localhost:8009, if your host/port varies, just replace the same 
+
+    - In left.cgi, just configure your available servers 
+
+    - In config.txt, just provide your username and password 
+
+    - Thats it... You are ready to go.... 
+
+Not Working??
+=============
+Possible reasons could be:
+
+    - Check your httpd.conf file to see the directories entries and permission to run CGI 
+
+    - Check your Perl path 
+
+    - Check all the linux commands works fine / defined in your PATH (grep, cut etc) 
+
+    - Just check from command line isql -s <server> -u <user> -p <passwd> and if connects fine, this should also work. 
