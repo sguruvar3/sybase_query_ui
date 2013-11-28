@@ -1,0 +1,19 @@
+<html>
+<head><title>SI-UI Tool</title>
+</head>
+<frameset rows="55,*" cols="*" border="0" >
+      <frame name="top" scrolling="no" src="top.html"></frame>
+      <frameset rows="*" cols="120, *" border="0" >
+          <frame name="navigation" scrolling="no" src="left.html"></frame>
+          	       <frameset rows="50%,50%" cols="*" border="0" >
+		       <frameset rows="*" cols="20%,20%,20%,40%" border="0" >
+		       <frame name="left_frame" scrolling="no" src="dbs.cgi?selectedServer="></frame>
+		       <frame name="mid_frame" scrolling="no" src="tables.cgi"></frame>
+		       <frame name="right_frame" scrolling="no" src="columns.cgi"></frame>
+		       <frame name="query_frame" scrolling="no" src="query_form.cgi"></frame>
+		       </frameset>
+           <frame name="runner_frame" scrolling="yes" src="query_run.cgi"></frame>
+	       </frameset>
+      </frameset>
+</frameset>
+</html>

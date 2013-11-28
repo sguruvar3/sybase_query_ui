@@ -1,0 +1,25 @@
+###########################################################
+#
+# Si-UI
+#
+# iSQL based Sybase Browser UI. 
+# Ver:1.0
+#
+# Author: Siva Guruvareddiar
+##########################################################
+
+How To INSTALL:
+
+  - Copy the files into your Apache (either by check-out or by downloading the zip verion)
+  - This one intends to run on localhost:8009, if your host/port varies, just replace the same
+  - In left.cgi, just configure your available servers
+  - In config.txt, just provide your username and password
+  - Thats it... You are ready to go....
+
+
+Not Working?? [Possible reasons could be]
+
+  - Check your httpd.conf file to see the directories entries and permission to run CGI
+  - Check your Perl path
+  - Check all the linux commands works fine / defined in your PATH (grep, cut etc)
+  - Just check from command line 'isql -s <server> -u <user> -p <passwd>' and if connects fine, this should also work.

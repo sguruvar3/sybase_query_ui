@@ -1,0 +1,7 @@
+###################################
+#
+# Give here ur sybase db's uid & pwd
+#
+###################################
+username=<username>
+password=<password>
