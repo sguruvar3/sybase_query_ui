@@ -1,6 +1,6 @@
 sybase_query_ui
 ===============
-si-ui -> Sybase isql based - brower UI
+Sybase isql based - brower UI
 
 i.e., Browser based database and table querying tool for Sybase written in Perl-CGI.
 
